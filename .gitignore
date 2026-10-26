@@ -1,0 +1,105 @@
+# ==============================
+# Python virtual environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Python cache and compiled files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+secrets.json
+credentials.json
+service-account*.json
+
+# ==============================
+# Testing and coverage
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# ==============================
+# Type checking and linting caches
+# ==============================
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# ==============================
+# Build and packaging artifacts
+# ==============================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# ==============================
+# Jupyter notebooks
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE and editor files
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+__MACOSX/
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ==============================
+# Streamlit local secrets
+# ==============================
+.streamlit/secrets.toml
+
+# ==============================
+# Generated reports and exports
+# ==============================
+reports/generated/
+exports/
+*.local.csv
+*.local.json
+# Default download names used by the dashboard's export buttons
+netsentry_alerts_*.csv
+netsentry_alerts_*.json

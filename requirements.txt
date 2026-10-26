@@ -1,0 +1,9 @@
+# Runtime
+streamlit>=1.50,<2
+pandas>=2.2,<4
+altair>=5.4,<7
+requests>=2.32,<3
+tzdata>=2024.1  # IANA timezone data for zoneinfo on platforms without it (e.g. Windows)
+
+# Testing
+pytest>=8.0,<10

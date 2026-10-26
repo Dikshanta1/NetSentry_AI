@@ -1,0 +1,14 @@
+[theme]
+base = "dark"
+primaryColor = "#22d3ee"
+backgroundColor = "#0b1220"
+secondaryBackgroundColor = "#131c2e"
+textColor = "#e2e8f0"
+font = "sans serif"
+
+[server]
+# Streamlit-level cap in MB; the app also enforces UploadLimits.max_upload_bytes.
+maxUploadSize = 5
+
+[browser]
+gatherUsageStats = false
